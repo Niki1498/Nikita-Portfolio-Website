@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Yantramanav&family=Ysabeau+Infant&display=swap');
+
+.container {
+    /* height: 100vh; */
+    background-color: rgb(232, 227, 227);
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: larger;
+    position: sticky;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    /* margin-top: 32px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 142px;
+    background-color: white;
+    color: black;
+}
+
+.right ul {
+    list-style-type: none;
+}
+
+.right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 28px;
+    color: black;
+    font-weight: bold;
+}
+
+.right ul li a:hover {
+    background-color: rgb(101, 99, 99);
+    color: rgb(231, 228, 228);
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    /* margin-right: 12%; */
+    margin-top: 22px;
+}
+
+.content img{
+    height: 329px;
+    width: 373px;
+    margin-left: 160px;
+    margin-top: 22px;
+}
+
+.aboutme{
+    margin-right: 82px;
+}
+
+.aboutme p{
+    margin-bottom: 70px;
+}
+.aboutme h3 {
+    margin-top: -30px;
+}
+
+.aboutme a {
+    text-decoration: none;
+    border: 1px solid black;
+    width: 11%;
+    padding: 8px 13px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+}
+
+.aboutme a:hover {
+    background-color: rgb(101, 99, 99);
+    color: white;
+}
+
+.details {
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 18px;
+    margin-top: -67px;
+    list-style: none;
+}
+
+.details li {
+    margin: 0 30px;
+    text-align: center;
+
+}
+
+.details li div img {
+    height: 35px;
+    width: 35px;
+    margin: 6px 8px;
+    cursor: pointer;
+}
+
+.r-container {
+    text-align: center;
+}
+
+.exp {
+    display: flex;
+    justify-content: center;
+}
+
+.exp h3{
+    margin-right: 306px;
+    margin-top: 30px;
+}
+
+.exp a{
+    font-size: 20px;
+    padding-top: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center; 
+    margin-left: 200px;
+    margin-top: 32px;
+    height: 41px;
+    width: 135px;
+    border-radius: 5px;
+}
+
+.exp a:hover {
+    background-color: rgb(101, 99, 99);
+    color: white;
+
+}
+
+.experience-1{
+    background-color: white;
+    width: 68%;
+    margin: auto;
+}
+
+.experience-1 h2{
+    margin: 0px 44px;
+    margin-top: 12px;
+}
+
+.detail-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-1 div ul li{
+    list-style: none; 
+    margin-right: 50px;
+}
+
+/* .detail-1 div ul li{
+    list-style: none;
+   
+} */
+
+.ed{
+    margin-left: 238px;
+    margin-top: 30px;
+}
+
+.education{
+    background-color: white;
+    width: 68%;
+    margin: auto;
+}
+
+.education h2{
+    margin: 0px 44px;
+    margin-top: 12px;
+}
+
+.softskills{
+    width: 68%;
+    margin: auto;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.softskills div{
+    margin: 0 44px;
+}
+
+.softskills ul{
+    margin: 0 -17px;
+}
+.languages{
+    margin-left: 176px;
+    /* width: 68%;
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 30px;
+    background-color: white; */
+
+}
+/* 
+.languages{
+    margin: 0 44px;
+} */
+
+/* .footer{
+    display: flex;
+    /* justify-content: space-between; */
+    /* font-size: 18px;
+    margin-top: -67px;
+    list-style: none;
+    background-color: white; 
+
+.details-1 li {
+    margin: 0 30px;
+    text-align: center;
+
+}
+
+.details-1 li div img {
+    height: 35px;
+    width: 35px;
+    margin: 6px 8px;
+    cursor: pointer;
+} */
+
+.projects h1{
+    text-align: center;
+}
+
+.project-1{
+    width: 86%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.project-1 img{
+    height: 258px;
+    width: 338px;
+    margin-left: 142px;
+}
+
+.project-1 div{
+    margin-left: 34px;
+ }
+
+.project-2{
+    width: 86%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.project-2 div{
+    margin-left: 34px;
+}
+
+.project-2 img{
+    height: 258px;
+    width: 338px;
+    margin-left: 142px;
+}
+
+.project-3{
+    width: 86%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.project-3 div{
+    margin-left: 34px;
+}
+
+.project-3 img{
+    height: 258px;
+    width: 338px;
+    margin-left: 142px;
+}
+
+.project-4{
+    width: 86%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.project-4 div{
+    margin-left: 34px;
+}
+
+.project-4 img{
+    height: 258px;
+    width: 338px;
+    margin-left: 142px;
+}
+
+/* contact section */
+
+.contactme{
+    background-color: rgb(231, 228, 228);
+}
+.contactme h1{
+    text-align: center;
+}
+
+.contact-section{
+    width: 65%;
+    background-color: white;
+    margin: 0 208px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 128px;
+    margin-top: 41px;
+}
+
+#fname{
+    margin-top: 56px;
+}
+
+#fname label::after{
+    color: blue;
+    content: '*';
+    margin: 6px;
+}
+
+#fname div input{
+    width: 245px;
+    height: 34px;
+}
+
+
+#lname{
+    margin-top: 56px;
+}
+
+#lname label::after{
+    color: blue;
+    content: '*';
+    margin: 6px;
+}
+
+#lname div input{
+    width: 245px;
+    height: 34px;
+}
+
+#email{
+    margin: 0 128px;
+    margin-top: 40px;
+}
+
+#email label::after{
+    color: blue;
+    content: '*';
+    margin: 6px;
+}
+
+#input input{
+    width: 545px;
+    height: 34px;
+}
+
+#subject{
+    margin: 0 128px;
+    margin-top: 40px;
+}
+
+#subject input{
+    width: 545px;
+    height: 34px;
+}
+
+#message{
+    margin: 0 128px;
+    margin-top: 40px;
+}
+
+#message input{
+    width: 545px;
+    height: 100px;
+}
+
+.send{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    margin: 31px 128px;
+    margin-top: 40px;
+    width: 120px;
+    height: 45px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.send:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: black;
+}
